@@ -3,3 +3,4 @@ numpy
 pickle
 streamlit
 pandas
+altair
