@@ -1,6 +1,5 @@
 scikit-learn
 numpy
-pickle
 streamlit
 pandas
 altair
