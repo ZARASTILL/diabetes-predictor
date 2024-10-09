@@ -1,4 +1,7 @@
 scikit-learn
+pandas
+numpy
+streamlit
 git add requirements.txt
-git commit -m "Add scikit-learn to requirements"
+git commit -m "Fix requirements.txt"
 git push
