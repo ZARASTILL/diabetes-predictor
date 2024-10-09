@@ -6,7 +6,7 @@ import pickle
 
 
 # loading the saved model
-loaded_model = pickle.load(open('C:/Users/Hp/Desktop/AI PROJECT/diabetes_model.sav', 'rb'))
+loaded_model = pickle.load(open('diabetes_model.sav', 'rb'))
 
 
 # creating a function for Prediction
@@ -21,7 +21,7 @@ def diabetes_prediction(input_data):
     # reshape the array as we are predicting for one instance
     input_data_reshaped = input_data_as_numpy_array.reshape(1,-1)
 
-    loaded_model = pickle.load(open('C:/Users/Hp/Desktop/AI PROJECT/diabetes_model.sav', 'rb'))
+    loaded_model = pickle.load(open('diabetes_model.sav', 'rb'))
 
     prediction = loaded_model.predict(input_data_reshaped)
     print(prediction)
