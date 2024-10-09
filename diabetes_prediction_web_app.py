@@ -2,7 +2,12 @@ import numpy as np
 import altair as alt
 import pickle
 import streamlit as st
+import os
+import pickle
 
+
+current_dir = os.path.dirname(__file__)
+model_path = os.path.join(current_dir, 'diabetes_model.sav')
 
 # loading the saved model
 loaded_model = pickle.load(open('diabetes_model.sav', 'rb'))
